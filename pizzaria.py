@@ -18,6 +18,8 @@ pass
 sf.scr.geometry("1366x768")
 sf.scr.title("Pizzaria Sangiorgio: ")
 sf.scr.iconbitmap('p.ico')
+sf.mainf1= Frame(sf.scr, height=150, width=1366)
+sf.logo =
 sf.scr.mainloop()
 x = Pizza()
 x.main()
