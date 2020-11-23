@@ -24,12 +24,14 @@ sf.l = Label(sf.mainf1,image=sf.logo)
 sf.l.place(x=0,y=0)
 sf.mainf1.pack(fill=BOTH,expand=1)
 sf.mainf2 = frame(sf.scr, height=618,width=1366)
-sf.c = Canvas(sf.mainf1,image=sf.logo)
-sf.l = Label(sf.mainf1,image=sf.logo)
-sf.l.place(x=0,y=0)
+sf.c = Canvas(sf.mainf2,image=sf.logo)
+sf.c.pack()
 sf.mainf1.pack(fill=BOTH,expand=1)
 sf.scr.mainloop()
 x=Pizza()
 x.main()
+sf.mainf1 = 
+Label(sf.mainf1,image=sf.logo)
+
 
 
