@@ -26,16 +26,9 @@ sf.mainf1.pack(fill=BOTH,expand=1)
 
 sf.mainf2 = Frame(sf.scr, height=618,widht=1366)
 sf.c = Canvas(sf.mainf2, height=618,width=1366)
-sf.back = PhotoImage(file="pizzamain.png")
-
 sf.c.pack()
 sf.mainf1.pack(fill=BOTH,expand=1)
 
 sf.scr.mainloop()
 x=Pizza()
 x.main()
-
-sf.mainf1 = Label(sf.mainf1,image=sf.logo)
-
-
-
